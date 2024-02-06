@@ -8,11 +8,13 @@ public class CharacterController2D : MonoBehaviour
     Rigidbody2D rigidbody2d;
     [SerializeField] float speed = 2f;
     Vector2 motionVector;
+    Animator animator;
 
     // Start is called before the first frame update
     void Awake()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -22,6 +24,8 @@ public class CharacterController2D : MonoBehaviour
             Input.GetAxisRaw("Horizontal"), 
             Input.GetAxisRaw("Vertical")
             );
+        animator.SetFloat("Horizontal", Input.GetAxisRaw("Horizontal"));
+        animator.SetFloat("Vertical", Input.GetAxisRaw("Vertical"));
     }
     private void FixedUpdate()
     {
