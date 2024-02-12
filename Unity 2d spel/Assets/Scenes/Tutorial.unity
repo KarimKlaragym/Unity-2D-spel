@@ -2675,6 +2675,7 @@ GameObject:
   - component: {fileID: 1553465885}
   - component: {fileID: 1553465884}
   - component: {fileID: 1553465883}
+  - component: {fileID: 1553465886}
   m_Layer: 0
   m_Name: Tree_2
   m_TagString: Untagged
@@ -2794,6 +2795,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1553465886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553465882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b43a44984fbb7a4299f9dd027982d15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1563403304
 GameObject:
   m_ObjectHideFlags: 0
@@ -3076,6 +3089,7 @@ GameObject:
   - component: {fileID: 1737997537}
   - component: {fileID: 1737997536}
   - component: {fileID: 1737997541}
+  - component: {fileID: 1737997542}
   m_Layer: 0
   m_Name: BearMan
   m_TagString: Untagged
@@ -3256,6 +3270,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.039968, y: 6.467153}
   m_EdgeRadius: 0
+--- !u!114 &1737997542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737997535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98bfd6ada746e14e8c083ee0862be10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1779512680
 GameObject:
   m_ObjectHideFlags: 0
