@@ -31,8 +31,8 @@ public class CharacterController2D : MonoBehaviour
            vertical
            );
             
-        animator.SetFloat("horizontal", horizontal);
-        animator.SetFloat("vertical", vertical);
+        animator.SetFloat("Horizontal", horizontal);
+        animator.SetFloat("Vertical", vertical);
 
         moving = horizontal != 0 || vertical != 0;
         animator.SetBool("moving", moving);
