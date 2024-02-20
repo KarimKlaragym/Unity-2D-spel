@@ -2454,7 +2454,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickUpDrop: {fileID: 3032990315084683104, guid: a7cf25aea036d1a499095de24329d33b, type: 3}
-  dropCount: 2
+  dropCount: 5
   spread: 1.5
 --- !u!61 &464170817
 BoxCollider2D:
@@ -2988,8 +2988,8 @@ Transform:
   m_GameObject: {fileID: 771192612}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.02, y: -0.63, z: 0}
-  m_LocalScale: {x: 0.24964795, y: 0.25588915, z: 0.24964795}
+  m_LocalPosition: {x: -6.02, y: -0.46, z: 0}
+  m_LocalScale: {x: 0.19669013, y: 0.20160738, z: 0.19669013}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
