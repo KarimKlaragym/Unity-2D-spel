@@ -2,17 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TalkInteract : MonoBehaviour
+public class TalkInteract : Interactable
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    public override void Interact(Character character)
     {
-        
+        Debug.Log("Hello world");
     }
 }
