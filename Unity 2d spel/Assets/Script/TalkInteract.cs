@@ -7,6 +7,6 @@ public class TalkInteract : Interactable
 
     public override void Interact(Character character)
     {
-        Debug.Log("Hello world");
+        Debug.Log("purrr Meaw meaw maooo");
     }
 }
