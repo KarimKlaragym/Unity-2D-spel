@@ -6,7 +6,7 @@ public class InventoryPanel : MonoBehaviour
 {
     [SerializeField] ItemContainer inventory;
 
-    private void star()
+    private void start()
     {
         Show();
     }
