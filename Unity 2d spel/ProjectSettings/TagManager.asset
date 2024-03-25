@@ -6,6 +6,7 @@ TagManager:
   tags:
   - EnemyArea
   - Death
+  - player
   layers:
   - Default
   - TransparentFX
